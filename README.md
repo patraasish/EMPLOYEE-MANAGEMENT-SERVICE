@@ -29,3 +29,6 @@ MYSQL
 #EMPLOYEE-INFO
 
 <img width="944" alt="EMPLOYEE-INFO" src="https://user-images.githubusercontent.com/88066543/210573242-30a33cd9-2423-4464-a5e1-c09627458ddb.png">
+
+# DATABASE
+<img width="250" alt="DATABASE" src="https://user-images.githubusercontent.com/88066543/210577282-562efca4-329f-46b8-9491-fe9415f5f4bf.png">
