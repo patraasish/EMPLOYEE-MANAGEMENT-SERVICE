@@ -1,0 +1,22 @@
+<h1 class="text-center pt-5 pb-5">Employee List</h1>
+
+
+
+<div class="card mb-3  d-flex " *ngFor="let employee of employees  " style="max-width: 540px;margin-left: 350px;width: 602px;height: 152px; margin-bottom: 20px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+     <img src="https://www.freeiconspng.com/thumbs/contact-icon-png/contact-icon-png-1.png" style="width: 150px; height: 150px;"class="img-fluid rounded-start" alt="...">
+    </div> 
+    <div class="col-md-8">
+      <div class="card-body" style="margin-left: 50px;">
+      <div class="d-flex"> <h5 >Name: </h5>&nbsp; <h5 class="card-title">{{employee.firstName}}&nbsp;{{employee.lastName}}</h5></div>
+      <div class="d-flex">  <h6>Email: </h6>&nbsp;<h6>{{employee.email}}</h6></div>
+      </div>
+      <div style="margin-left: 60px;">
+      <button type="button" class="btn btn-primary " [routerLink]="['/update-employee',employee.id]">Update</button>
+          <button type="button" class="btn btn-danger mx-1" (click)="this.deleteEmployee(employee.id)">Delete</button>
+          <button type="button" class="btn btn-info " [routerLink]="['/info-employee',employee.id]">Info</button>
+    </div>
+    </div>
+  </div>
+</div>

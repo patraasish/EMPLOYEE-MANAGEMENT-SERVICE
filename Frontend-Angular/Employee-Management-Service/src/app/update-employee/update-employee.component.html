@@ -1,0 +1,22 @@
+
+<div class="main"><form #data="ngForm">
+    <h2 class="text-center mb-5">Update Employee</h2>
+      <div class="m-3 d-flex ">
+      
+          <div class="mr-2" style="margin-right: 10px;">
+          <input type="text" class="form-control" name="firstName" placeholder="First Name" [(ngModel)]="this.employee2.firstName" required> </div>
+          <br>
+          <div class="ml-3 ">
+          <input type="text" class="form-control" name="lastName" placeholder="Last Name" [(ngModel)]="this.employee2.lastName" required>
+        </div>
+        </div>
+      <div class="m-3" style="
+      width: 423px;
+  ">
+        <input type="email" class="form-control" name="email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="email" [(ngModel)]="this.employee2.email" required>
+      </div>
+    
+      
+      <button [disabled]="data.invalid" style="margin-left: 200px;" type="submit" (click)="this.onSubmit()" class="btn btn-primary">Update</button>
+    </form>
+    </div>
