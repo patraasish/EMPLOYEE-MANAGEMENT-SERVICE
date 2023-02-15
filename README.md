@@ -1,4 +1,4 @@
-# EMPLOYEE-MANAGEMENT-SERVEICE
+# EMPLOYEE-MANAGEMENT-SERVICE
 It is a full stack(Angular + Spring Boot) crud application .
 
 # FRONTEND TOOLS
