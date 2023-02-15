@@ -26,7 +26,7 @@ MYSQL
 <img width="957" alt="UPDATE-EMPOYEE" src="https://user-images.githubusercontent.com/88066543/210573173-859d3b42-68ea-4d28-a695-15a082804338.png">
 
 
-#EMPLOYEE-INFO
+# EMPLOYEE-INFO
 
 <img width="944" alt="EMPLOYEE-INFO" src="https://user-images.githubusercontent.com/88066543/210573242-30a33cd9-2423-4464-a5e1-c09627458ddb.png">
 
